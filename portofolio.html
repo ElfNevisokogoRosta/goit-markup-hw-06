@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/modern-normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>WebStudio</title>
+</head>
+
+<body>
+  <!--header-->
+  <header class="header">
+    <div class="container flex-box">
+      <!--navigation-->
+      <nav class="nav flex-box">
+        <a href="./index.html" class="main-title">
+          Web<span class="title-top">Studio</span>
+        </a>
+        <ul class="main-nav flex-box list">
+          <li><a class="nav-link" href="./index.html">Студия</a></li>
+          <li><a class="nav-link curent-page" href="./portofolio.html">Портфолио</a></li>
+          <li><a class="nav-link" href="">Контакты</a></li>
+        </ul>
+      </nav>
+        <!--some contact info-->  
+      <div class="contact-nav flex-box">
+        <a class="flex-box" href="mailto:info@devstudio.com">
+          <svg class="icon-mail" width="16" height="12">
+            <use href="./img/index/icons.svg#icon-mail"></use>
+          </svg>
+          info@devstudio.com
+        </a>
+        <a class="flex-box" href="tel:+380961111111">
+          <svg class="icon-smartphone" width="10" height="16" >
+            <use href="./img/index/icons.svg#icon-smartphone"></use>
+          </svg>
+          +38 096 111 11 11
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section portofolio">
+      <div class="container">
+        <h1 class="visually-hidden">Портофолио</h1>
+        <ul class="radio-controller flex-box list">
+          <li><button type="button" class="portofolio-btn button">Все</button></li>
+          <li><button type="button" class="portofolio-btn button">Веб-сайты</button></li>
+          <li><button type="button" class="portofolio-btn button">Приложения</button></li>
+          <li><button type="button" class="portofolio-btn button">Дизайн</button></li>
+          <li><button type="button" class="portofolio-btn button">Маркетинг</button></li>
+        </ul>
+        <ul class="portofolio-elements list">
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+              <img 
+              src="./img/portofolio/technochryak.jpg" 
+              alt="Изображение сайта: Технокряк"
+              width="370"
+              >
+              <p class="portofolio-discription">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и 
+                атак на защищённые сервера конкурентов.
+              </p>
+            </div>
+            
+            <div class="portofolio-element-info">
+              <h2>Технокряк</h2>
+              <p>Веб-сайт</p>
+            </div>
+           
+          </li>
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+            <img 
+            src="./img/portofolio/poster.jpg" 
+            alt="Постер New Orlean vs Golden Star"
+            width="370"
+            >
+            <p class="portofolio-discription">
+
+            </p>
+            </div>
+            <div class="portofolio-element-info">
+              <h2>Постер New Orlean vs Golden Star</h2>
+              <p>Дизайн</p>
+            </div>
+            
+          </li>
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+            <img 
+            src="./img/portofolio/seafood.jpg" 
+            alt="Емблема ресторана"
+            width="370"
+            >
+            <p class="portofolio-discription">
+
+            </p>
+            </div>
+            <div class="portofolio-element-info">
+              <h2>Ресторан Seafood</h2>
+              <p>Приложение</p>
+            </div>
+            
+          </li>
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+            <img 
+            src="./img/portofolio/prime.jpg" 
+            alt="Наушники"
+            width="370"
+            >
+            <p class="portofolio-discription">
+
+            </p>
+          </div>
+            <div class="portofolio-element-info">
+              <h2>Проект Prime</h2>
+              <p>Маркетинг</p>
+            </div>
+          </li>
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+            <img 
+            src="./img/portofolio/boxes.jpg" 
+            alt="Коробки"
+            width="370"
+            >
+            <p class="portofolio-discription">
+
+            </p>
+            </div>
+            <div class="portofolio-element-info">
+              <h2>Проект Boxes</h2>
+              <p>Приложение</p>
+            </div>
+            
+          </li>
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+            <img 
+            src="./img/portofolio/borders.jpg" 
+            alt="Изображение сайта Inspiration has no Borders"
+            width="370"
+            >
+            <p class="portofolio-discription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quibusdam sint saepe laborum, illum blanditiis odio sit aliquam atque suscipit natus adipisci praesentium eius similique.
+            </p>
+            </div>
+            <div class="portofolio-element-info">
+              <h2 lang="en">Inspiration has no Borders</h2>
+              <p>Веб-сайт</p>
+            </div> 
+          </li>
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+            <img 
+            src="./img/portofolio/edittion.jpg" 
+            alt="Журнал Издания Limited Edition"
+            width="370"
+            >
+            <p class="portofolio-discription">
+
+            </p>
+          </div>
+            <div class="portofolio-element-info">
+              <h2>Издание Limited Edition</h2>
+              <p>Дизайн</p>
+            </div>
+          </li>
+          <li class="portofolio-element">
+            <div class="portofolio-wraper">
+              <img 
+              src="./img/portofolio/lab.jpg" 
+              alt="Емблема проекта Lab"
+              width="370"
+              >
+              <p class="portofolio-discription">
+
+              </p>
+            </div>
+              <div class="portofolio-element-info">
+                <h2>Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div> 
+            </li>
+          
+         
+            <li class="portofolio-element">
+              <div class="portofolio-wraper">
+              <img 
+              src="./img/portofolio/biz.jpg" 
+              alt="Изображение приложения Growing Business"
+              width="370"
+              >
+              <p class="portofolio-discription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dignissimos ex, laborum neque repellat quam iure illo dolores, quibusdam officiis, modi aperiam iusto debitis tenetur commodi reprehenderit ut sapiente provident. 
+              </p>
+            </div>
+              <div class="portofolio-element-info">
+                <h2>Growing Business</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+        
+          
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container flex-box">
+      <div class="adress-container">
+      <a href="./index.html" class="main-title footer-title ">Web<span class="title-bottom">Studio</span></a>
+      <div class="adress">
+        <address>
+          <a href="" class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a>
+          <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
+          <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
+        </address>
+      </div>
+    </div>
+      <div class="main-contact-container">
+        <h2 class="contact-footer-title section-title">присоединяйтесь</h2>
+        <ul class="list flex-box footer-link-list">
+          <li class="footer-link-list-item">
+            <a  class="footer-link-bg" href="">
+              <svg class="footer-icon">
+                <use href="./img/index/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li  class="footer-link-list-item">
+            <a class="footer-link-bg" href="">
+              <svg class="footer-icon">
+                <use href="./img/index/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li  class="footer-link-list-item">
+            <a class="footer-link-bg" href="">
+              <svg class="footer-icon">
+                <use href="./img/index/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li  class="footer-link-list-item">
+            <a class="footer-link-bg" href="">
+              <svg class="footer-icon">
+                <use href="./img/index/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="follow">
+        <h2 class="follow-title section-title" >Подпишитесь на рассылку</h2>
+        <form class="follow-from">
+          <label class="follow-email">
+            <input type="email" placeholder="E-mail">
+          </label>
+          <button class="follow-btn" type="submit">Подписаться
+            <svg class="follow-btn-icon">
+              <use href="./img/index/icons.svg#follow"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+</footer>
+  </body>
+  </html>
