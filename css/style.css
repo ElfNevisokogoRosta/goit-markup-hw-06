@@ -175,7 +175,7 @@ body {
   color: var(--background-color);
 }
 .adress{
-  width: 213px;
+  width: 231px;
 }
 .adress address{
   display: flex;
@@ -248,6 +248,8 @@ body {
 .follow{
   display: flex;
   margin: 72px;
+  margin-right: 0px;
+  margin-left: 93px;
   flex-direction: column;
 }
 .follow-from{
@@ -256,7 +258,8 @@ body {
   justify-content: space-between;
 }
 .follow-btn-icon{
- margin-top: 3px;
+  width: 200px;
+  margin-top: 3px;
   margin-left: 10px;
   width: 24px;
   height: 24px;
@@ -332,11 +335,17 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  color: var(--first-additional-color);
 }
 .xros-btn{
   display: flex;
   height: 11px;
   width: 11px;
+  fill: currentColor;
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus{
+  color: var(--accent-color);
 }
 
 .form__field__coordination{
