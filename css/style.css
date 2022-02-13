@@ -336,6 +336,7 @@ body {
   align-items: center;
   cursor: pointer;
   color: var(--first-additional-color);
+  transition: color 250ms var(--cubic-animation);
 }
 .xros-btn{
   display: flex;
